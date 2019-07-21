@@ -1,5 +1,8 @@
 package com.crm.qa.test;
 
+import static org.testng.Assert.assertEquals;
+
+import org.apache.http.util.Asserts;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -39,13 +42,6 @@ public class HomePageTest extends TestBase{
 	
 	@Test
 	private void clickOnProfileLoginButtonLoginlableTest() {
-
-		logPage =homePge.clikOnProfileLoginLabel();		
-
-	}
-	
-	@Test
-	private void clickOnProfileLoginButtonLoginlableTest2() {
 
 		logPage =homePge.clikOnProfileLoginLabel();		
 
